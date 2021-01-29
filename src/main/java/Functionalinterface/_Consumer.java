@@ -16,6 +16,7 @@ public class _Consumer
         greetCustumerConsumerv2.accept(vincentobj, false);
     }
 
+                //    INPUT
     static Consumer<Customer> greetCustumerConsumer = customer -> System.out.println("Hello "+customer.custumerName+" , thanks for registering phone number "+customer.custumerPhoneNumber);
 
     static BiConsumer<Customer, Boolean> greetCustumerConsumerv2 = (customer, showPhoneNumber) -> System.out.println("Hello "+customer.custumerName+" , thanks for registering phone number "+

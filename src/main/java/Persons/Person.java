@@ -1,6 +1,8 @@
+package Persons;
+
 public class Person {
 
-    private final String name;
+    public final String name;
     public final Gender gender;
 
 
@@ -15,7 +17,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Persons.Person{" +
                 "name='" + name + '\'' +
                 ", gender=" + gender +
                 '}';

@@ -1,3 +1,5 @@
+import Persons.Gender;
+import Persons.Person;
 import com.sun.tools.javac.util.List;
 
 import java.util.ArrayList;
@@ -8,7 +10,7 @@ public class DeclarativeMain {
     public static void main(String[] args) {
 
         List<Person> personList = List.of(
-                new Person("Vincent",Gender.MALE),
+                new Person("Vincent", Gender.MALE),
                 new Person("Jan",Gender.MALE),
                 new Person("Maria",Gender.FEMALE),
                 new Person("Charlotte",Gender.FEMALE),
