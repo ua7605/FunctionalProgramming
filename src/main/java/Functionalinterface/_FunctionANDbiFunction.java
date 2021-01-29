@@ -3,7 +3,7 @@ package Functionalinterface;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-public class _Function {
+public class _FunctionANDbiFunction {
 
 
     public static void main(String[] args) {
@@ -19,7 +19,9 @@ public class _Function {
         System.out.println(twoFunctions);
 
         Integer biFunctional = incrementbytwo_Function.apply(2, 100);
+
         System.out.println(biFunctional);
+
 
     }                   //  INPUT , OUTPUT
     static public Function<Integer, Integer> incrementFunctionbyOne =
