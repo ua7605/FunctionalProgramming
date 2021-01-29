@@ -1,6 +1,8 @@
+import Functionalinterface._Function;
 import com.sun.tools.javac.util.List;
 import com.sun.tools.javah.Gen;
 
+import javax.naming.NamingEnumeration;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
@@ -15,6 +17,8 @@ public class DeclarativeMain {
                 new Person("Charlotte",Gender.FEMALE),
                 new Person("Steve",Gender.MALE)
         );
+
+
 
 
         // Imperative approach:
