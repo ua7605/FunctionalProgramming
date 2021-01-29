@@ -45,9 +45,11 @@ public class main {
                 .forEach(System.out::println);
 
 
+        java.util.List<Person> maleList = personList.stream()
+                .filter(person -> Gender.MALE.equals(person.gender))
+                .collect(Collectors.toList());
 
-
-
+        maleList.forEach(System.out::println);
 
 
     }
