@@ -2,6 +2,7 @@ import com.sun.tools.javac.util.List;
 import com.sun.tools.javah.Gen;
 
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 public class main {
 
@@ -38,7 +39,10 @@ public class main {
         //---------------------------------------------
 
         // Declarative approach:
-
+        personList.stream()
+                .filter(person -> Gender.FEMALE.equals(person.gender))
+                .collect(Collectors.toList())
+                .forEach(System.out::println);
 
 
 
