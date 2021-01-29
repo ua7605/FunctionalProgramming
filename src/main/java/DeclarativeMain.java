@@ -4,7 +4,7 @@ import com.sun.tools.javah.Gen;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
-public class main {
+public class DeclarativeMain {
 
     public static void main(String[] args) {
 
